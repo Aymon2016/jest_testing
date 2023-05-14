@@ -1,0 +1,52 @@
+this is articke
+https://www.guru99.com/test-driven-development.html
+
+
+MOST POPULER TOOL
+1.mocha
+2.chai js
+but best is 
+3.jest testing libray
+https://jestjs.io/
+arekti labe
+4.react testing libray
+
+test korte hole file name must best
+    app.test.js amon howa lagbe app er jaiga ja issa howa jabe
+
+
+    how to write test code{
+
+        1.first test code 
+            test('this test will pass',()=>{})
+        2.run test code 
+            npm run test
+        3.test code live watch mode code 
+            "test:watch":"jest --watch-all"
+                {   
+                "name": "testing",
+                "version": "1.0.0",
+                "description": "",
+                "main": "app.js",
+                "scripts": {
+                    "test": "jest",
+                    "test:watch":"jest --watch-all"
+                },
+                "author": "",
+                "license": "ISC"
+                }
+        4.then terminal e npm run test:watch
+        5.first test file   
+            test('this test will pass', () => {
+                const word = 'word'
+                expect(word.length).toBe(4)
+            })
+        6.firs testing lika
+        7.then ki ki case e error ashbe 
+        8.then funtion lika
+        
+
+    }
+
+
+    
